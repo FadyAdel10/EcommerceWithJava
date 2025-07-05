@@ -1,5 +1,9 @@
 import java.time.LocalDate;
 
+
+/**
+ * A product that both expires and requires shipping.
+ */
 public class ExpirableAndShippableProduct extends Product implements Expirable,Shippable{
     private LocalDate expiryDate;
     private double weight;
@@ -11,6 +15,8 @@ public class ExpirableAndShippableProduct extends Product implements Expirable,S
     public LocalDate getExpiryDate() {
         return expiryDate;
     }
+
+    //  Checks whether the product is expired based on the current date.
     @Override
     public boolean isExpired(){
         return LocalDate.now().isAfter(getExpiryDate());

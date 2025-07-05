@@ -1,5 +1,7 @@
 import java.time.LocalDate;
-
+/**
+ * Represents a product that has an expiration date but does not require shipping.
+ */
 public class ExpirableProduct extends Product implements Expirable{
 
     private LocalDate expiryDate;

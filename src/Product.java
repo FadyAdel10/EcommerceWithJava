@@ -1,3 +1,9 @@
+/**
+ * Represents a general product in the e-commerce system.
+ * Serves as the base class for specialized product types such as
+ * expirable and/or shippable products.
+ */
+
 public class Product {
     private String name;
     private double price;

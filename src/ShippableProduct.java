@@ -1,3 +1,7 @@
+/**
+ * Represents a product that requires shipping but does not expire.
+ */
+
 public class ShippableProduct extends Product implements Shippable{
     private double weight;
 
@@ -5,7 +9,6 @@ public class ShippableProduct extends Product implements Shippable{
         super(name, price, availableQuantity);
         this.weight = weight;
     }
-
     @Override
     public double getWeight() {
         return weight;

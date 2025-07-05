@@ -1,3 +1,8 @@
+/**
+ * Represents an item inside a shopping cart,
+ * containing the product and the quantity chosen by the customer.
+ */
+
 public class CartItem {
     private Product product;
     private int quantity;
