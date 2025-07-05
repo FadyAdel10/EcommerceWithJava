@@ -1,4 +1,4 @@
-# EcommerceWithJava
+# Ecommerce with Java
 # 🛒 Java E-commerce System
 
 A modular, object-oriented Java console application that simulates a basic e-commerce workflow.  
